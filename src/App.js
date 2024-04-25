@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import Projects from "./components/Projects";
 import "./App.css";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
       <SocialLinks />
     </div>
   );
