@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+::-webkit-scrollbar {
+  cursor: pointer;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #282727;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0aa3cd;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #095f9cab;
+}
